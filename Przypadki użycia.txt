@@ -1,0 +1,32 @@
+Przypadki u¿ycia
+
+I. Wprowadzanie nowych danych do bazy
+
+1. Administrator loguje siê do bazy danych.
+2. Administrator dodaje nowe dane (po³¹czenia, miasta) lub aktualizuje stare (np. zmiany w rozk³adach).
+3. System weryfikuje poprawnoœæ wprowadzonych danych (np. format) i wyœwietla ewentualne komunikaty o b³êdach.
+4. Administrator zatwierdza zmiany, a w przypadku b³êdów dokonuje poprawek.
+
+Rozszerzenie:
+1.1. Administrator ma mo¿liwoœæ ponownego wpisania has³a (w przypadku, gdy by³o ono nieprawid³owe) przy jednoczesnym zabezpieczeniu (blokada po 3-krotnym b³êdnym wpisaniu has³a).
+
+
+II. Wydruk po³¹czeñ
+
+1. Korzystamy z "Wyszukiwanie po³¹czeñ".
+2. U¿ytkownik wybiera dane, które maj¹ znaleŸæ siê na wydruku (cena biletu, przesiadki, zni¿ki).
+3. U¿ytkownik wybiera formê wydruku: pdf lub papierowy.
+4. System generuje dokument (cyfrowy lub papierowy).
+
+Rozszerzenie:
+3.1. U¿ytkownik dokonuje zaawansowanych ustawieñ wydruku.
+
+
+III. Wyszukiwanie optymalnego po³¹czenia miêdzy dwoma ró¿nymi miastami.
+
+1. U¿ytkownik wchodzi na stronê z wyszukiwark¹.
+2. U¿ytkownik wybiera miasto pocz¹tkowe i docelowe.
+3. System zwraca pasuj¹ce po³¹czenie (wed³ug preferencji u¿ytkownika).
+
+Rozszerzenie:
+2.1. U¿ytkownik wybiera zaawansowane opcje po³¹czenia: wariant ekonomiczny (niekoniecznie najszybszy - np. d³u¿szy czas jazdy, wiêcej przesiadek) lub wariant szybki (niekoniecznie najtañszy).
